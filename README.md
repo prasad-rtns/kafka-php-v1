@@ -56,3 +56,11 @@ Add this line:
 
 4. Verify Installation
 Create a phpinfo.php file in MAMP’s htdocs:
+
+First, stop any running Kafka/Zookeeper processes:
+```
+# Find and kill existing processes
+ps aux | grep -i 'zookeeper' | awk '{print $2}' | xargs kill -9
+ps aux | grep -i 'kafka' | awk '{print $2}' | xargs kill -9
+```
+

@@ -1,0 +1,49 @@
+[2025-06-10T15:47:28.263+0530][gc] Using G1
+[2025-06-10T15:47:28.266+0530][gc,init] Version: 17.0.15+0 (release)
+[2025-06-10T15:47:28.267+0530][gc,init] CPUs: 16 total, 16 available
+[2025-06-10T15:47:28.267+0530][gc,init] Memory: 16384M
+[2025-06-10T15:47:28.267+0530][gc,init] Large Page Support: Disabled
+[2025-06-10T15:47:28.267+0530][gc,init] NUMA Support: Disabled
+[2025-06-10T15:47:28.267+0530][gc,init] Compressed Oops: Enabled (Zero based)
+[2025-06-10T15:47:28.267+0530][gc,init] Heap Region Size: 1M
+[2025-06-10T15:47:28.267+0530][gc,init] Heap Min Capacity: 512M
+[2025-06-10T15:47:28.267+0530][gc,init] Heap Initial Capacity: 512M
+[2025-06-10T15:47:28.267+0530][gc,init] Heap Max Capacity: 512M
+[2025-06-10T15:47:28.267+0530][gc,init] Pre-touch: Disabled
+[2025-06-10T15:47:28.267+0530][gc,init] Parallel Workers: 13
+[2025-06-10T15:47:28.267+0530][gc,init] Concurrent Workers: 3
+[2025-06-10T15:47:28.267+0530][gc,init] Concurrent Refinement Workers: 13
+[2025-06-10T15:47:28.267+0530][gc,init] Periodic GC: Disabled
+[2025-06-10T15:47:28.274+0530][gc,metaspace] CDS archive(s) mapped at: [0x0000000128000000-0x0000000128bbd000-0x0000000128bbd000), size 12308480, SharedBaseAddress: 0x0000000128000000, ArchiveRelocationMode: 1.
+[2025-06-10T15:47:28.274+0530][gc,metaspace] Compressed class space mapped at: 0x0000000129000000-0x0000000169000000, reserved size: 1073741824
+[2025-06-10T15:47:28.274+0530][gc,metaspace] Narrow klass base: 0x0000000128000000, Narrow klass shift: 0, Narrow klass range: 0x100000000
+[2025-06-10T15:47:39.686+0530][gc,start    ] GC(0) Pause Young (Normal) (G1 Evacuation Pause)
+[2025-06-10T15:47:39.688+0530][gc,task     ] GC(0) Using 12 workers of 13 for evacuation
+[2025-06-10T15:47:39.695+0530][gc,phases   ] GC(0)   Pre Evacuate Collection Set: 0.2ms
+[2025-06-10T15:47:39.695+0530][gc,phases   ] GC(0)   Merge Heap Roots: 0.2ms
+[2025-06-10T15:47:39.695+0530][gc,phases   ] GC(0)   Evacuate Collection Set: 5.4ms
+[2025-06-10T15:47:39.695+0530][gc,phases   ] GC(0)   Post Evacuate Collection Set: 0.6ms
+[2025-06-10T15:47:39.695+0530][gc,phases   ] GC(0)   Other: 2.6ms
+[2025-06-10T15:47:39.695+0530][gc,heap     ] GC(0) Eden regions: 25->0(21)
+[2025-06-10T15:47:39.695+0530][gc,heap     ] GC(0) Survivor regions: 0->4(4)
+[2025-06-10T15:47:39.695+0530][gc,heap     ] GC(0) Old regions: 0->2
+[2025-06-10T15:47:39.695+0530][gc,heap     ] GC(0) Archive regions: 2->2
+[2025-06-10T15:47:39.695+0530][gc,heap     ] GC(0) Humongous regions: 0->0
+[2025-06-10T15:47:39.695+0530][gc,metaspace] GC(0) Metaspace: 7340K(7488K)->7340K(7488K) NonClass: 6513K(6592K)->6513K(6592K) Class: 826K(896K)->826K(896K)
+[2025-06-10T15:47:39.695+0530][gc          ] GC(0) Pause Young (Normal) (G1 Evacuation Pause) 25M->6M(512M) 9.240ms
+[2025-06-10T15:47:39.695+0530][gc,cpu      ] GC(0) User=0.03s Sys=0.02s Real=0.01s
+[2025-06-10T20:44:39.111+0530][gc,start    ] GC(1) Pause Young (Normal) (G1 Evacuation Pause)
+[2025-06-10T20:44:39.111+0530][gc,task     ] GC(1) Using 12 workers of 13 for evacuation
+[2025-06-10T20:44:39.124+0530][gc,phases   ] GC(1)   Pre Evacuate Collection Set: 0.5ms
+[2025-06-10T20:44:39.124+0530][gc,phases   ] GC(1)   Merge Heap Roots: 0.2ms
+[2025-06-10T20:44:39.124+0530][gc,phases   ] GC(1)   Evacuate Collection Set: 11.2ms
+[2025-06-10T20:44:39.124+0530][gc,phases   ] GC(1)   Post Evacuate Collection Set: 0.3ms
+[2025-06-10T20:44:39.124+0530][gc,phases   ] GC(1)   Other: 0.5ms
+[2025-06-10T20:44:39.124+0530][gc,heap     ] GC(1) Eden regions: 21->0(24)
+[2025-06-10T20:44:39.124+0530][gc,heap     ] GC(1) Survivor regions: 4->1(4)
+[2025-06-10T20:44:39.124+0530][gc,heap     ] GC(1) Old regions: 2->6
+[2025-06-10T20:44:39.124+0530][gc,heap     ] GC(1) Archive regions: 2->2
+[2025-06-10T20:44:39.124+0530][gc,heap     ] GC(1) Humongous regions: 0->0
+[2025-06-10T20:44:39.124+0530][gc,metaspace] GC(1) Metaspace: 7959K(8128K)->7959K(8128K) NonClass: 7115K(7168K)->7115K(7168K) Class: 844K(960K)->844K(960K)
+[2025-06-10T20:44:39.124+0530][gc          ] GC(1) Pause Young (Normal) (G1 Evacuation Pause) 27M->6M(512M) 12.934ms
+[2025-06-10T20:44:39.124+0530][gc,cpu      ] GC(1) User=0.01s Sys=0.07s Real=0.01s

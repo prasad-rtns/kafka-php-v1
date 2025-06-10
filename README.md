@@ -1,6 +1,6 @@
 
 
-## PHP Kafka setup
+## PHP 7.1 Kafka setup
 Step 1: 
 ```
 wget https://archive.apache.org/dist/kafka/2.4.0/kafka_2.12-2.4.0.tgz
